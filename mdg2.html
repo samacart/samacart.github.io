@@ -1,0 +1,65 @@
+<html>
+<head>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style-blue.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        function changeMDG2(type) {
+            i = document.getElementById('MDG2_iFrame');
+            if (type == "Enrolment_Ratio") {
+                document.getElementById('MDG2_iFrame').src = "enrolment_ratio.html"
+                i.width = "1200"
+                i.height = "800"
+                document.getElementById('Enrolment_Ratio').checked = true
+                document.getElementById('Primary_Completion').checked = false
+                document.getElementById('Final_Outcome').checked = false
+            }
+            if (type == "Primary_Completion") {
+                document.getElementById('MDG2_iFrame').src = "primary_completion.html"
+                i.width = "1500"
+                i.height = "3500"
+                document.getElementById('Enrolment_Ratio').checked = false
+                document.getElementById('Primary_Completion').checked = true
+                document.getElementById('Final_Outcome').checked = false
+            }
+            if (type == "Final_Outcome") {
+                document.getElementById('MDG2_iFrame').src = "MDG2_Comparison.html"
+                i.width = "1200"
+                i.height = "750"
+                document.getElementById('Enrolment_Ratio').checked = false
+                document.getElementById('Primary_Completion').checked = false
+                document.getElementById('Final_Outcome').checked = true
+            }
+
+        }
+    </script>
+</head>
+
+<body bgcolor="white">
+<div class="container">
+    <h2 class="text-center" style="color:black">Goal 2: Achieve Universal Primary Education</h2>
+</div>
+
+<div id="sizer" align="center">
+    <form action="#" method="get" accept-charset="utf-8">
+        View data by:
+
+        <fieldset class="radios">
+            <label class="label_radio" for="Enrolment_Ratio"><input name="sample-radio" id="Enrolment_Ratio" onclick="changeMDG2('Enrolment_Ratio')" checked type="radio"
+                                                             checked/> Enrolment Ratio</label>
+            <label class="label_radio" for="Primary_Completion"><input name="sample-radio" id="Primary_Completion" onclick="changeMDG2('Primary_Completion')" type="radio"/>
+                Primary Completion</label>
+            <label class="label_radio" for="Final_Outcome"><input name="sample-radio" id="Final_Outcome" onclick="changeMDG2('Final_Outcome')" type="radio"/>
+                Final Outcome</label>
+        </fieldset>
+    </form>
+</div>
+
+<div class="row" align="center">
+    <iframe src="enrolment_ratio.html" scrolling="no" , frameborder="0" , border="0" , cellspacing="0" ,
+            height="1200" id="MDG2_iFrame" onload="this.width=screen.width-50;">>
+    </iframe>
+</div>
+</div>
+</body>
+</html>

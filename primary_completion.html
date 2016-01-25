@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+    body {
+        font: 12px Arial;
+    }
+
+    svg {
+       padding: 20px;
+    }
+    path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+
+    .legend rect {
+        fill: white;
+        stroke: black;
+        opacity: 0.8;
+    }
+
+</style>
+<body bgcolor="white">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="assets/js/d3.legend.js"></script>
+
+<script>
+
+    var margin = {top: 30, right: 40, bottom: 30, left: 50},
+            width = 600 - margin.left - margin.right,
+            height = 270 - margin.top - margin.bottom;
+
+    var parseDate = d3.time.format("%d-%b-%y").parse;
+
+    var x = d3.scale.linear()
+            .domain([1990, 2014])
+            .range([0, width]);
+
+    format = d3.format("0000");
+    formattedX = format(x);
+
+    //setup the x and y scales
+    var y = d3.scale.linear()
+            .domain([0, 100])
+            .range([height, 0]);
+
+    var xAxis = d3.svg.axis().scale(x)
+            .orient("bottom").ticks(5)
+            .tickFormat(d3.format("0000"));
+
+    var yAxis = d3.svg.axis().scale(y)
+            .orient("left").ticks(5);
+
+    var line_Female_Actual = d3.svg.line()
+            .x(function (d) {
+                console.log(x(d.year));
+                return x(d.year);
+            })
+            .y(function (d) {
+                console.log(y(d.actual_female));
+                return y(d.actual_female);
+            });
+
+    var line_Male_Actual = d3.svg.line()
+            .x(function (d) {
+                return x(d.year);
+            })
+            .y(function (d) {
+                return y(d.actual_male);
+            });
+
+    var line_Female_Goal = d3.svg.line()
+            .x(function (d) {
+                return x(d.year);
+            })
+            .y(function (d) {
+                return y(d.goal_female);
+            });
+
+    var line_Male_Goal = d3.svg.line()
+            .x(function (d) {
+                return x(d.year);
+            })
+            .y(function (d) {
+                return y(d.goal_male);
+            });
+
+    // Get the data
+    d3.csv("data/2_Primary_completion_rate_ male_female.csv", function (data) {
+        formatted = data;
+        redraw()
+    });
+
+    function redraw() {
+
+        formatted = formatted.map(function (d) {
+            return {
+                year: d.Year,
+                Region: d.Region,
+                actual_male: d.Actual_Male,
+                actual_female: d.Actual_Female,
+                goal_male: d.Goal_Male,
+                goal_female: d.Goal_Female
+            };
+        });
+
+        drawChart('Africa - Eastern Africa', formatted)
+        drawChart('Africa - Middle Africa', formatted)
+        drawChart('Africa - Northern Africa', formatted)
+        drawChart('Africa - Southern Africa', formatted)
+        drawChart('Africa - Western Africa', formatted)
+        drawChart('Americas - Caribbean', formatted)
+        drawChart('Americas - Central America', formatted)
+        drawChart('Americas - Northern America', formatted)
+        drawChart('Americas - South America', formatted)
+        drawChart('Asia - Central Asia', formatted)
+        drawChart('Asia - Eastern Asia', formatted)
+        drawChart('Asia - South-Eastern Asia', formatted)
+        drawChart('Asia - Southern Asia', formatted)
+        drawChart('Asia - Western Asia', formatted)
+        drawChart('Europe - Eastern Europe', formatted)
+        drawChart('Europe - Northern Europe', formatted)
+        drawChart('Europe - Southern Europe', formatted)
+        drawChart('Europe - Western Europe', formatted)
+        drawChart('Oceania - Melanesia', formatted)
+        drawChart('Oceania - Micronesia', formatted)
+        drawChart('Oceania - Polynesia', formatted)
+    }
+
+    function drawChart(region, formatted) {
+
+        var svg = d3.select("body")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("text-decoration", "underline")
+                .text(region);
+        // create data nests based on economic indicator (series)
+        var nested = d3.nest()
+                .key(function (d) {
+                    return d.Region;
+                })
+                .map(formatted)
+
+        var data = nested[region];
+
+        svg.append("path")		// Add the valueline path.
+                .attr("class", "line")
+                .attr("data-legend",'Male Actual' )
+                .attr("d", line_Male_Actual(data));
+
+        svg.append("path")		// Add the valueline2 path.
+                .attr("class", "line")
+                .style("stroke", "red")
+                .attr("data-legend",'Female Actual' )
+                .attr("d", line_Female_Actual(data));
+
+        svg.append("path")		// Add the valueline2 path.
+                .attr("class", "line")
+                .style("stroke", "purple")
+                .style("stroke-dasharray", "5, 5")
+                .attr("data-legend",'Male Goal' )
+                .attr("d", line_Male_Goal(data));
+
+        svg.append("path")		// Add the valueline2 path.
+                .attr("class", "line")
+                .style("stroke", "green")
+                .style("stroke-dasharray", "5, 5")
+                .attr("data-legend",'Female Goal' )
+                .attr("d", line_Female_Goal(data));
+
+        svg.append("g")			// Add the X Axis
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis);
+
+        svg.append("g")			// Add the Y Axis
+                .attr("class", "y axis")
+                .call(yAxis);
+
+        legend = svg.append("g")
+                .attr("class", "legend")
+                .attr("transform", "translate(20,30)")
+                .style("font-size", "10px")
+                .call(d3.legend)
+
+        /*
+         //append the legend
+         var legend = svg.selectAll('.legend')
+         .data(data);
+
+         var legendEnter=legend
+         .enter()
+         .append('g')
+         .attr('class', 'legend')
+         .attr('id',function(d){ return d.key; })
+         .on('click', function (d) {                           //onclick function to toggle off the lines
+         if($(this).css("opacity") == 1){                  //uses the opacity of the item clicked on to determine whether to turn the line on or off
+
+         var elemented = document.getElementById(this.id +"-line");   //grab the line that has the same ID as this point along w/ "-line"  use get element cause ID has spaces
+         d3.select(elemented)
+         .transition()
+         .duration(1000)
+         .style("opacity",0)
+         .style("display",'none');
+
+         d3.select(this)
+         .attr('fakeclass', 'fakelegend')
+         .transition()
+         .duration(1000)
+         .style ("opacity", .2);
+         } else {
+
+         var elemented = document.getElementById(this.id +"-line");
+         d3.select(elemented)
+         .style("display", "block")
+         .transition()
+         .duration(1000)
+         .style("opacity",1);
+
+         d3.select(this)
+         .attr('fakeclass','legend')
+         .transition()
+         .duration(1000)
+         .style ("opacity", 1);}
+         });
+
+         var r = d3.range(0,2000,20)
+
+         //create a scale to pass the legend items through
+         var legendscale= d3.scale.ordinal()
+         .domain(lastvalues)
+         .range(r);
+
+         //actually add the circles to the created legend container
+         legendEnter.append('circle')
+         .attr('cx', width +20)
+         .attr('cy', function(d, i){return legendscale(i);})
+         .attr('r', 7)
+         .style('fill', function(d) {
+         return color(d.key);
+         });
+
+         //add the legend text
+         legendEnter.append('text')
+         .attr('x', width+35)
+         .attr('y', function(d, i){return legendscale(i);})
+         .text(function(d){ return d.key; });
+
+         */
+        console.log(data.length - 1);
+        console.log(data[data.length - 1].open);
+        console.log(data[0].open);
+        console.log(y(data[0].open));
+        console.log(y(data[0].close));
+
+    }
+</script>
+</body>

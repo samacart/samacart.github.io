@@ -1,0 +1,243 @@
+﻿/* ==============================================================================================
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: DarkOrange;
+}
+
+/*d3 components*/
+#vis {
+  padding-top: 15px;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.y.axis line {
+  stroke: #ddd;
+  stroke-opacity: 0.6;
+}
+
+.y.axis path {
+  display: none;
+}
+
+.x.axis line {
+  stroke: #ddd;
+  stroke-opacity: 0.6;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+#legend {
+  position: fixed;
+  top: 150px;
+  right: 0px;
+  width: 200px;
+  height: 280px;
+  z-index: 100000;
+  overflow: visible;
+}
+
+
+
+
+/* additional sections */
+/* Home image, royalty free from https://pixabay.com/en/hands-world-map-global-earth-600497/ */
+#home {
+  background: url(../images/globe-3.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#infantmortality {
+}
+
+#services {
+  background-color: RoyalBlue;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/globe-2.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+#key-stats{
+	width: 98%;
+    margin: 0 auto;
+}
+	#key-stats h3 {
+		color: #000;
+		font: 20px/26px Georgia, serif;
+		margin-bottom: 14px;
+		text-transform: none;
+	}
+	#key-stats ul{
+		background: url(../images/stats.png) repeat-y left top;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+	}
+		#key-stats ul li {
+			color: #000;
+			float: left;
+			font-size: 12px;
+			line-height: 20px;
+			margin: 0 0 0 21px;
+			padding: 36px 0 0 0;
+			width: 25%;
+		}
+		#key-stats ul li.stat1 {
+			margin-left: 0;
+			width: 155px;
+		}
+		#key-stats ul li.stat4 {
+			width: 155px;
+		}
+		#key-stats ul li.people {
+			background: url(../images/people.png) no-repeat left top;
+		}
+		#key-stats ul li.countries {
+			background: url(../images/countries.png) no-repeat left top;
+		}
+
+			#key-stats ul li span {
+				color: #990000;
+				display: block;
+				font: 40px Georgia, serif;
+				margin-bottom: 6px;
+			}
+	#key-stats .footnote {
+		bottom: 30px;
+		color: #999;
+		display: block;
+		font-size: 11px;
+		position: absolute;
+	}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.container:before, .container:after {
+    display: table;
+    content: " "
+}
+
+.container:after {
+    clear: both
+}
+
+.container:before, .container:after {
+    display: table;
+    content: " "
+}
+
+.container:after {
+    clear: both
+}
+
+
+.text-center {
+    text-align: center
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}

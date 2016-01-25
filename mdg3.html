@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body bgcolor="white">
+<link href="assets/css/mdg3.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" charset="utf-8"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+            <div class="container">
+    <h2 class="text-center">Goal 3: Promote Gender Equality and Empower Women</h2>
+                <hr/>
+                <div class="row">
+                        <center><h4>A fair go for everyone</h4></center>
+                        <p> Between 1990 and 2014, most regions showed significant increases in promoting gender equality, through education, working environments and even parliamentarian positions.
+                        <a href="http://www.un.org/millenniumgoals/gender.shtml" , target="_blank">Reference:
+                                Gender</a>                        </p>
+
+                        <p><a href="http://apps.who.int/gho/data/node.main.MATMORT?lang=en" ,
+                                           target="_blank">Raw data for this visualization</a>.</p>
+                    </div>
+</div>
+<div id="chart" style="width: 95%; height: 450px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+
+    $(function () {
+      $('#chart').highcharts({
+        chart: {
+            renderTo: 'chart',
+            type: 'bar',
+            height: 700
+        },
+        credits: {},
+        exporting: {},
+        legend: {},
+        title: {
+            text: "Gender Equality Index Movement By Region (1990 - 2015)"
+        },
+        subtitle: {
+            text: "Click a Region for Country Details"
+        },
+        xAxis: {
+            type: 'category',
+        },
+        yAxis: {
+            labels: {
+                formatter: function () {
+                    return this.value;
+                }
+            },
+            title: {text: 'Percentage Change'}
+        },
+        series: [{
+            name: "Region Change (%)",
+            colorByPoint: true,
+            data: [{
+                name: 'ASIA (EX. NEAR EAST)',
+                y: 58,
+                drilldown: 'ASIA (EX. NEAR EAST)_dd'
+            }, {
+                name: 'BALTICS',
+                y: 42,
+                drilldown: 'BALTICS_dd'
+            }, {
+                name: 'C.W. OF IND. STATES',
+                y: 15,
+                drilldown: 'C.W. OF IND. STATES_dd'
+            }, {
+                name: 'EASTERN EUROPE',
+                y: 64,
+                drilldown: 'EASTERN EUROPE_dd'
+            }, {
+                name: 'LATIN AMER. & CARIB',
+                y: 53,
+                drilldown: 'LATIN AMER. & CARIB_dd'
+            }, {
+                name: 'NEAR EAST',
+                y: 45,
+                drilldown: 'NEAR EAST_dd'
+            }, {
+                name: 'NORTHERN AFRICA',
+                y: 103,
+                drilldown: 'NORTHERN AFRICA_dd'
+            }, {
+                name: 'NORTHERN AMERICA',
+                y: 13,
+                drilldown: 'NORTHERN AMERICA_dd'
+            }, {
+                name: 'OCEANIA',
+                y: 25,
+                drilldown: 'OCEANIA_dd'
+            }, {
+                name: 'SUB-SAHARAN AFRICA',
+                y: 67,
+                drilldown: 'SUB-SAHARAN AFRICA_dd'
+            }, {
+                name: 'WESTERN EUROPE',
+                y: 42,
+                drilldown: 'WESTERN EUROPE_dd'
+            }],
+        }],
+        drilldown: {
+            series: [{
+                id: 'ASIA (EX. NEAR EAST)_dd',
+                name: 'ASIA (EX. NEAR EAST)',
+                data: [
+                    ['Bangladesh',260],
+                    ['Brunei Darussalam',34],
+                    ['Cambodia',239],
+                    ['China',117],
+                    ['Hong Kong',1871],
+                    ['India',77],
+                    ['Indonesia',87],
+                    ['Japan',38],
+                    ['Malaysia',19],
+                    ['Maldives',0],
+                    ['Mongolia',0],
+                    ['Montenegro',0],
+                    ['Nepal',252],
+                    ['Pakistan',263],
+                    ['Philippines',15],
+                    ['Sri Lanka',220],
+                    ['State of Palestine',88],
+                    ['Thailand',25],
+                    ['The former Yugoslav Republic of Macedonia',20],
+                    ['Timor-Leste',6],
+                ]
+            },{
+                id: 'BALTICS_dd',
+                name: 'BALTICS',
+                data: [
+                    ['Estonia',42],
+                    ['Latvia',25],
+                    ['Lithuania',104],
+                    ['Luembourg',18],
+                ]
+            },{
+                id: 'C.W. OF IND. STATES_dd',
+                name: 'C.W. OF IND. STATES',
+                data: [
+                    ['Armenia',20],
+                    ['Azerbaijan',62],
+                    ['Belarus',13],
+                    ['Georgia',38],
+                    ['Kazakhstan',14],
+                    ['Kyrgyzstan',-31],
+                    ['Lao People\'s Democratic Republic',84],
+                    ['Russian Federation',2],
+                    ['Tajikistan',49],
+                    ['Turkmenistan',0],
+                    ['Ukraine',6],
+                    ['Uzbekistan',0]
+                ]
+            },{
+                id: 'EASTERN EUROPE_dd',
+                name: 'EASTERN EUROPE',
+                data: [
+                    ['Bulgaria',15],
+                    ['Croatia',721],
+                    ['Czech Republic',721],
+                    ['Democratic Republic of the Congo',721],
+                    ['Hungary',21],
+                    ['Poland',18],
+                    ['Romania',53],
+                    ['Serbia',10],
+                    ['Slovakia',60],
+                    ['Slovenia',29]
+                ]
+            },{
+                id: 'LATIN AMER. & CARIB_dd',
+                name: 'LATIN AMER. & CARIB',
+                data: [
+                    ['Antigua and Barbuda',8],
+                    ['Argentina',11],
+                    ['Aruba',29],
+                    ['Belize',11],
+                    ['Chile',31],
+                    ['Colombia',200],
+                    ['Costa Rica',786],
+                    ['Cuba',721],
+                    ['Dominica',614],
+                    ['Dominican Republic',1043],
+                    ['Ecuador',836],
+                    ['El Salvador',707],
+                    ['Grenada',0],
+                    ['Guatemala',44],
+                    ['Guyana',197],
+                    ['Jamaica',26],
+                    ['Nicaragua',15],
+                    ['Paraguay',65],
+                    ['Peru',11],
+                    ['Puerto Rico',0],
+                    ['Saint Kitts and Nevis',77],
+                    ['Saint Lucia',34],
+                    ['Saint Vincent and the Grenadines',0],
+                    ['Suriname',41],
+                    ['Trinidad and Tobago',83],
+                    ['Turks and Caicos Islands',0],
+                    ['Uruguay',3],
+                    ['Venezuela',58],
+                    ['Viet Nam',36]
+                ]
+            },{
+                id: 'NEAR EAST_dd',
+                name: 'NEAR EAST',
+                data: [
+                    ['Bahrain',58],
+                    ['Cyprus',721],
+                    ['Iraq',11],
+                    ['Israel',37],
+                    ['Jordan',21],
+                    ['Kuwait',-48],
+                    ['Lebanon',20],
+                    ['Oman',101],
+                    ['Qatar',118],
+                    ['Republic of Moldova',12],
+                    ['Saudi Arabia',32],
+                    ['Syrian Arab Republic',58],
+                    ['Turkey',72],
+                    ['United Arab Emirates',2],
+                    ['Yemen',175]
+                ]
+            },{
+                id: 'NORTHERN AFRICA_dd',
+                name: 'NORTHERN AFRICA',
+                data: [
+                    ['Egypt',536],
+                    ['Libyan Arab Jamahiriya',26],
+                    ['Morocco',51],
+                    ['Tunisia',161]
+                        ]
+            },{
+                id: 'NORTHERN AMERICA_dd',
+                name: 'NORTHERN AMERICA',
+                data: [
+                    ['Canada',16],
+                    ['United States',11]
+                        ]
+            },{
+                id: 'OCEANIA_dd',
+                name: 'OCEANIA',
+                data: [
+                    ['Australia',38],
+                    ['Cook Islands',779],
+                    ['Marshall Islands',0],
+                    ['Nigeria',3],
+                    ['Palau',0],
+                    ['Papua New Guinea',21],
+                    ['Samoa',0],
+                    ['Tonga',23],
+                    ['Vanuatu',4]
+                ]
+            },{
+                id: 'SUB-SAHARAN AFRICA_dd',
+                name: 'SUB-SAHARAN AFRICA',
+                data: [
+                    ['Angola',95],
+                    ['Benin',93],
+                    ['Botswana',71],
+                    ['Burkina Faso',75],
+                    ['Burundi',20],
+                    ['Cameroon',14],
+                    ['Cape Verde',42],
+                    ['Central African Republic',140],
+                    ['Chad',300],
+                    ['Comoros',406],
+                    ['Congo',341],
+                    ['Cote d\'Ivoire',100],
+                    ['Djibouti',386],
+                    ['Equatorial Guinea',200],
+                    ['Eritrea',285],
+                    ['Ethiopia',45],
+                    ['Gabon',37],
+                    ['Ghana',163],
+                    ['Kenya',30],
+                    ['Lesotho',15],
+                    ['Liberia',163],
+                    ['Madagascar',22],
+                    ['Malawi',110],
+                    ['Mali',187],
+                    ['Mauritania',238],
+                    ['Mauritius',103],
+                    ['Meico',22],
+                    ['Myanmar',1],
+                    ['Namibia',52],
+                    ['Niger',143],
+                    ['Rwanda',226],
+                    ['Sao Tome and Principe',0],
+                    ['Senegal',84],
+                    ['Seychelles',0],
+                    ['South Africa',73],
+                    ['Swaziland',64],
+                    ['Togo',200],
+                    ['Uganda',105],
+                    ['Zambia',0],
+                    ['Zimbabwe',77]
+                ]
+            },{
+                id: 'WESTERN EUROPE_dd',
+                name: 'WESTERN EUROPE',
+                data: [
+                ['Austria',38],
+                ['Belgium',35],
+                ['Denmark',886],
+                ['France',9],
+                ['Germany',24],
+                ['Greece',9],
+                ['Iceland',30],
+                ['Ireland',18],
+                ['Italy',51],
+                ['Liechtenstein',49],
+                ['Macao',1514],
+                ['Malta',69],
+                ['Netherlands',34],
+                ['Norway',26],
+                ['Portugal',0],
+                ['San Marino',0],
+                ['Spain',14],
+                ['Sweden',31],
+                ['Switzerland',89],
+                ['United Kingdom',45],
+                ['United Republic of Tanzania',200]
+                ]
+            }
+            ]
+    }
+    })
+    });
+</script>
+

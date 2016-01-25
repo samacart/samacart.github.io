@@ -1,0 +1,70 @@
+<body bgcolor="white" width="90%">
+<!doctype html>
+
+<div class="container">
+    <h2 class="text-center" style="color:black">How Did They Track?</h2><br><h4 class="text-center">Change from Earliest to Latest Datapoint</h4>
+</div>
+<link rel="stylesheet" type="text/css" href="assets/css/d3.parcoords.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<style>
+/* data table styles */
+#grid { height: 258px; }
+.row, .header { clear: left; font-size: 12px; line-height: 18px; height: 18px; }
+.row:nth-child(odd) { background: rgba(0,0,0,0.05); }
+.header { font-weight: bold; }
+.cell { float: left; overflow: hidden; white-space: nowrap; width: 200px; height: 18px; }
+.col-0 { width: 250px; }
+</style>
+
+<script src="assets/js/d3.min.js"></script>
+<script src="assets/js/divgrid.js"></script>
+<script src="assets/js/d3.parcoords.js"></script>
+<div id="example" class="parcoords" style="height:200px;"></div>
+<div id="grid"></div>
+<script id="brushing">// quantitative color scale
+var blue_to_brown = d3.scale.linear()
+  .domain([9, 50])
+  .range(["steelblue", "brown"])
+  .interpolate(d3.interpolateLab);
+
+var color = function(d) { return blue_to_brown(d['Enrolment Ratio']); };
+
+var parcoords = d3.parcoords()("#example")
+  .color(color)
+  .alpha(0.4);
+
+// load csv file and create the chart
+d3.csv('data/MDG2_Final_Outcome.csv', function(data) {
+  parcoords
+    .data(data)
+    .hideAxis(["Region"])
+    .render()
+    .brushMode("1D-axes");  // enable brushing
+
+  // create data table, row hover highlighting
+  var grid = d3.divgrid();
+  d3.select("#grid")
+    .datum(data)
+    .call(grid)
+    .selectAll(".row")
+    .on({
+      "mouseover": function(d) { parcoords.highlight([d]) },
+      "mouseout": parcoords.unhighlight
+    });
+
+  // update data table on brush event
+  parcoords.on("brush", function(d) {
+    d3.select("#grid")
+      .datum(data)
+      .call(grid)
+      .selectAll(".row")
+      .on({
+        "mouseover": function(d) { parcoords.highlight([d]) },
+        "mouseout": parcoords.unhighlight
+      });
+  });
+});
+</script>
+
+</body>

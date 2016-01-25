@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <title>Millenium Development Goals</title>
+    <!-- BOOTSTRAP CORE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- ION ICONS STYLES -->
+    <link href="assets/css/ionicons.css" rel="stylesheet"/>
+    <!-- FONT AWESOME ICONS STYLES -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet"/>
+    <!-- FANCYBOX POPUP STYLES -->
+    <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet"/>
+    <!-- STYLES FOR VIEWPORT ANIMATION -->
+    <link href="assets/css/animations.min.css" rel="stylesheet"/>
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/style-blue.css" rel="stylesheet"/>
+    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+
+	<!-- Add jQuery library -->
+    <script type="text/javascript" src="assets/js/jquery-1.10.2.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="assets/js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css?v=2.1.5" media="screen"/>
+
+    <![endif]-->
+    <script type="text/javascript">
+        function change_iFrame(URL) {
+            history.pushState('', document.title, window.location.pathname);
+
+            i = document.getElementById('iFrame');
+
+            if (URL == 'mdg1.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button active"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "1200"
+            }
+            if (URL == 'mdg2.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange active"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "4000"
+            }
+            if (URL == 'mdg3.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple active"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "1100"
+            }
+            if (URL == 'mdg4.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise active"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "1800"
+            }
+            if (URL == 'MDG5.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red active"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "1700"
+            }
+            if (URL == 'mdg6.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green active"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "1300"
+            }
+            if (URL == 'mdg7.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow active"
+                document.getElementById('lnk_goal8').className = "button brown inactive"
+                i.width = "1200"
+                i.height = "1300"
+            }
+            if (URL == 'mdg8.html') {
+                document.getElementById('iFrame').src = URL
+                document.getElementById('lnk_goal1').className = "button inactive"
+                document.getElementById('lnk_goal2').className = "button orange inactive"
+                document.getElementById('lnk_goal3').className = "button purple inactive"
+                document.getElementById('lnk_goal4').className = "button turqoise inactive"
+                document.getElementById('lnk_goal5').className = "button red inactive"
+                document.getElementById('lnk_goal6').className = "button green inactive"
+                document.getElementById('lnk_goal7').className = "button yellow inactive"
+                document.getElementById('lnk_goal8').className = "button brown active"
+                i.width = "1200"
+                i.height = "1300"
+            }
+
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#carousel-slider').carousel({
+                interval: 6000
+            });
+
+            /*
+             *  Simple image gallery. Uses default settings
+             */
+
+            $('.fancybox').fancybox();
+
+            /*
+             *  Different effects
+             */
+
+            // Change title type, overlay closing speed
+            $(".fancybox-effects-a").fancybox({
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    },
+                    overlay: {
+                        speedOut: 0
+                    }
+                }
+            });
+
+            // Disable opening and closing animations, change title type
+            $(".fancybox-effects-b").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+
+                helpers: {
+                    title: {
+                        type: 'over'
+                    }
+                }
+            });
+
+            // Set custom style, close if clicked, change title type and overlay color
+            $(".fancybox-effects-c").fancybox({
+                wrapCSS: 'fancybox-custom',
+                closeClick: true,
+
+                openEffect: 'none',
+
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(238,238,238,0.85)'
+                        }
+                    }
+                }
+            });
+
+            // Remove padding, set opening and closing animations, close if clicked and disable overlay
+            $(".fancybox-effects-d").fancybox({
+                padding: 0,
+
+                openEffect: 'elastic',
+                openSpeed: 150,
+
+                closeEffect: 'elastic',
+                closeSpeed: 150,
+
+                closeClick: true,
+
+                helpers: {
+                    overlay: null
+                }
+            });
+
+            /*
+             *  Button helper. Disable animations, hide close button, change title type and content
+             */
+
+            $('.fancybox-buttons').fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+
+                prevEffect: 'none',
+                nextEffect: 'none',
+
+                closeBtn: false,
+
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    buttons: {}
+                },
+
+                afterLoad: function () {
+                    this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+                }
+            });
+
+
+            /*
+             *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+             */
+
+            $('.fancybox-thumbs').fancybox({
+                prevEffect: 'none',
+                nextEffect: 'none',
+
+                closeBtn: false,
+                arrows: false,
+                nextClick: true,
+
+                helpers: {
+                    thumbs: {
+                        width: 50,
+                        height: 50
+                    }
+                }
+            });
+
+            /*
+             *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+             */
+            $('.fancybox-media')
+                    .attr('rel', 'media-gallery')
+                    .fancybox({
+                        openEffect: 'none',
+                        closeEffect: 'none',
+                        prevEffect: 'none',
+                        nextEffect: 'none',
+
+                        arrows: false,
+                        helpers: {
+                            media: {},
+                            buttons: {}
+                        }
+                    });
+
+            /*
+             *  Open manually
+             */
+
+            $("#fancybox-manual-a").click(function () {
+                $.fancybox.open('1_b.jpg');
+            });
+
+            $("#fancybox-manual-b").click(function () {
+                $.fancybox.open({
+                    href: 'iframe.html',
+                    type: 'iframe',
+                    padding: 5
+                });
+            });
+
+            $("#fancybox-manual-c").click(function () {
+                $.fancybox.open([
+                    {
+                        href: '1_b.jpg',
+                        title: 'My title'
+                    }, {
+                        href: '2_b.jpg',
+                        title: '2nd title'
+                    }, {
+                        href: '3_b.jpg'
+                    }
+                ], {
+                    helpers: {
+                        thumbs: {
+                            width: 75,
+                            height: 50
+                        }
+                    }
+                });
+            });
+
+
+        });
+    </script>
+    <script type="text/javascript">
+        var _urq = _urq || [];
+        _urq.push(['initSite', '654afecd-b805-40b5-b84e-ca89172861e4']);
+        (function () {
+            var ur = document.createElement('script');
+            ur.type = 'text/javascript';
+            ur.async = true;
+            ur.src = ('https:' == document.location.protocol ? 'https://cdn.userreport.com/userreport.js' : 'http://cdn.userreport.com/userreport.js');
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ur, s);
+        })();
+    </script>
+    <style type="text/css">
+        .fancybox-custom .fancybox-skin {
+            box-shadow: 0 0 50px #222;
+        }
+
+        a {
+            color: white;
+        }
+
+    </style>
+</head>
+<body data-spy="scroll" data-target="#menu-section">
+<!--MENU SECTION START-->
+<div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <!--<img src="assets/img/logo.png" class="nav navbar-nav navbar-left" width="65px" height="65px">-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#goals">Goals Overview</a></li>
+                <li><a href="#progress">Goal Progress</a></li>
+                <li><a href="#work">Goal Visualizations</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!--MENU SECTION END-->
+<!--HOME SECTION START-->
+<div id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
+                <div id="carousel-slider" data-ride="carousel" class="carousel slide  animate-in"
+                     data-anim-type="fade-in-up">
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+
+                            <h3>
+                                <a href="http://www.un.org/sustainabledevelopment/blog/2015/06/journey-towards-bold-climate-action-is-at-a-critical-moment-un-general-assembly-told/"
+                                   target="_blank" , style='color:white;font-size:28px'>‘Journey towards bold climate
+                                    action is at a critical moment,’ UN
+                                    General Assembly</a>
+                            </h3>
+
+                            <p>
+                                Development cannot be sustainable if it does not address the challenge of climate
+                                change, United Nations Secretary-General Ban Ki-moon told Member States today as he
+                                opened a High-Level Event on Climate Change convened in New York by the President of the
+                                UN General Assembly, Sam Kutesa.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                <a target="_blank"
+                                   src="http://www.un.org/sustainabledevelopment/blog/2015/06/give-young-people-decent-jobs-and-they-will-create-a-better-future-un-chief/"
+                                   style='color:white;font-size:28px'>‘Give
+                                    young people decent jobs and they will create a better future’ – UN chief</a>
+                            </h3>
+
+                            <p>
+                                When young people have decent jobs, political weight, negotiating muscle and real
+                                influence in the world, they will create a better future, United Nations
+                                Secretary-General Ban Ki-moon said today as he kicked off a Headquarters event on
+                                empowering youth through employment.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row animate-in" data-anim-type="fade-in-up">
+            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 scroll-me">
+                <p>
+                </p>
+                <a href="#goals" class=" btn button-custom btn-custom-two">See Development Goals </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!--HOME SECTION END-->
+<!--SERVICE SECTION START-->
+<section id="goals">
+    <div class="container">
+        <div class="row text-center header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up">
+                <h3>Millenium Development Goals</h3>
+                <hr/>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal1_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg1.jpg"
+                             style="width: 85px; height: 85px;">
+
+                        <h3>Goal 1</h3>
+
+                        Eradicate Extreme Poverty and Hunger
+                        <div id="goal1_text" style="width:800px;display: none;">
+                            <h3>Goal 1: Eradicate Extreme Poverty and Hunger</h3>
+
+                            <p>
+                            <h4>Target 1.A: <br>
+                                Halve, between 1990 and 2015, the proportion of people whose income is less than $1.25 a
+                                day</h4>
+
+                            <ul>
+
+                                <li>The target of reducing extreme poverty rates by half was met five years ahead of the
+                                    2015 deadline.
+                                </li>
+                                <li>More than 1 billion people have been lifted out of extreme poverty since 1990.</li>
+                                <li>In 1990, nearly half of the population in the developing regions lived on less than
+                                    $1.25 a day. This rate dropped to 14 per cent in 2015.
+                                </li>
+                                <li>At the global level more than 800 million people are still living in extreme
+                                    poverty.
+                                </li>
+
+                            </ul>
+
+                            <h4>Target 1.B: <br/>
+                                Achieve full and productive employment and decent work for all, including women and
+                                young people</h4>
+
+                            <ul>
+
+                                <li>Globally, 300 million workers lived below the $1.25 a day poverty line in 2015.</li>
+                                <li>The global employment-to-population ratio – the proportion of the working-age
+                                    population that is employed – has fallen from 62 per cent in 1991 to 60 per cent in
+                                    2015, with an especially significant downturn during the global economic crisis of
+                                    2008/2009.
+                                </li>
+                                <li>Only four in ten young women and men aged 15-24 are employed in 2015, compared with
+                                    five in ten in 1991.
+                                </li>
+                            </ul>
+
+                            <h4>Target 1.C: <br/>
+                                Halve, between 1990 and 2015, the proportion of people who suffer from hunger</h4>
+
+                            <ul>
+
+                                <li>The proportion of undernourished people in the developing regions has fallen by
+                                    almost half since 1990.
+                                </li>
+                                <li>Globally, about 795 million people are estimated to be undernourished.</li>
+                                <li>More than 90 million children under age five are still undernourished and
+                                    underweight.
+                                </li>
+                            </ul>
+                            <br/>
+                            <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/kjIdutXVdBw?list=PLwoDFQJEq_0Y57bsPH-5zcRnDlXJRz87x"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+
+                            </p>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal2_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg2.jpg"
+                             style="width: 85px; height: 85px;">
+
+                        <h3>Goal 2</h3>
+                        Achieve Universal Primary Education
+                        <div id="goal2_text" style="width:800px;display: none;">
+                            <h3>Goal 2: Achieve Universal Primary Education</h3>
+
+                            <p>
+                            <h4>Target 2.A: <br/>
+                                Ensure that, by 2015, children everywhere, boys and girls alike, will be able to
+                                complete a
+                                full course of primary schooling</h4>
+
+                            <ul>
+
+                                <li>Enrolment in primary education in developing regions reached 91 per cent in 2015, up
+                                    from 83 per cent in 2000.
+                                </li>
+
+                                <li>In 2015, 57 million children of primary school age were out of school.</li>
+
+                                <li>Among youth aged 15 to 24, the literacy rate has improved globally from 83 per cent
+                                    to
+                                    91 per cent between 1990 and 2015, and the gap between women and men has narrowed.
+                                </li>
+
+                                <li>In the developing regions, children in the poorest households are four times as
+                                    likely
+                                    to be out of school as those in the richest households.
+                                </li>
+
+                                <li>In countries affected by conflict, the proportion of out-of-school children
+                                    increased
+                                    from 30 per cent in 1999 to 36 per cent in 2012.
+                                </li>
+
+
+                            </ul>
+                            <br/>
+                            <h4>Malala Day: An Education For All Children </h4>
+
+                            <iframe width="480" height="270"
+                                    src="https://www.youtube.com/embed/5FNriz_YVh0?list=PLwoDFQJEq_0Y57bsPH-5zcRnDlXJRz87x"
+                                    frameborder="0" allowfullscreen></iframe>
+
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal3_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg3.jpg"
+                             style="width: 85px; height: 85px;">
+
+                        <h3>Goal 3</h3>
+                        Promote Gender Equality and Empower Women
+                        <div id="goal3_text" style="width:800px;display: none;">
+                            <h3>Goal 3: Promote Gender Equality and Empower Women</h3>
+
+                            <p>
+                            <h4>Target 3.A: <br/>
+                                Eliminate gender disparity in primary and secondary education, preferably by 2005, and
+                                in
+                                all levels of education no later than 2015</h4>
+
+                            <ul>
+
+                                <li>The developing countries as a whole have achieved the target to eliminate gender
+                                    disparity in primary, secondary and tertiary education.
+                                </li>
+                                <li>Globally, about three quarters of working-age men participate in the labour force,
+                                    compared to half of working-age women.
+                                </li>
+                                <li>Women make up 41 per cent of paid workers outside of agriculture, an increase from
+                                    35
+                                    per cent in 1990.
+                                </li>
+                                <li>The average proportion of women in parliament has nearly doubled over the past 20
+                                    years.
+                                </li>
+                                <li>Women continue to experience significant gaps in terms of poverty, labour market and
+                                    wages, as well as participation in private and public decision-making.
+                                </li>
+
+                            </ul>
+                            <br/>
+                            <h4>Women's Empowerment/ Nepal: Women Weavers Launch Businesses</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/w2Q0LNJi8nI"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+
+                            </p>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal4_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg4.jpg"
+                             style="width: 85px; height: 85px;">
+
+                        <h3>Goal 4</h3>
+                        Reduce Child Mortality
+                        <div id="goal4_text" style="width:800px;display: none;">
+                            <h3>Goal 4: Reduce Child Mortality</h3>
+
+                            <p>
+                            <h4>Target 4.A: <br/>
+                                Reduce by two thirds, between 1990 and 2015, the under-five mortality rate</h4>
+
+                            <ul>
+
+
+                                <li>Between 1990 and 2015, the global under-five mortality rate has declined by more
+                                    than
+                                    half, dropping from 90 to 43 deaths per 1000 live births.
+                                </li>
+                                <li>Between 1990 and 2015, the number of deaths in children under five worldwide
+                                    declined
+                                    from 12.7 million in 1990 to almost 6 million in 2015.
+                                </li>
+                                <li>Children in rural areas are about 1.7 times more likely to die before their fifth
+                                    birthday as those in urban areas.
+                                </li>
+                                <li>Children of mothers with secondary or higher education are almost three times as
+                                    likely
+                                    to survive as children of mothers with no education.
+                                </li>
+                                <li>While Sub-Saharan Africa has the world’s highest child mortality rate, the absolute
+                                    decline in child mortality has been the largest over the past two decades.
+                                </li>
+                                <li>Every day in 2015, 16,000 children under five continue to die, mostly from
+                                    preventable
+                                    causes. Child survival must remain a focus of the new sustainable development
+                                    agenda.
+                                </li>
+                            </ul>
+                            <br/>
+                            <h4>Child Mortality </h4>
+                            <ul>
+                                <iframe width="480" height="270"
+                                        src="https://www.youtube.com/embed/ZGK3qYd8-hc?list=PLwoDFQJEq_0Y57bsPH-5zcRnDlXJRz87x"
+                                        frameborder="0" allowfullscreen></iframe>
+
+                                <h4></h4>
+                                <iframe width="480" height="270" src="https://www.youtube.com/embed/XAXtLDa6jDE"
+                                        frameborder="0" allowfullscreen></iframe>
+                            </ul>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal5_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg5.jpg"
+                             style="width: 85px; height: 85px;">
+
+                        <h3>Goal 5</h3>
+                        Improve Maternal Health
+                        <div id="goal5_text" style="width:800px;display: none;">
+                            <h3>Goal 5: Improve Maternal Health</h3>
+
+                            <p>
+                            <h4>Target 5.A: <br/>
+                                <strong>Reduce by three quarters, between 1990 and 2015, the maternal mortality
+                                    ratio</strong></h4>
+
+                            <ul>
+                                <li>Since 1990, the maternal mortality ratio has been cut nearly in half, and most of
+                                    the
+                                    reduction occurred since 2000.
+                                </li>
+                                <li>More than 71 per cent of births were assisted by skilled health personnel globally
+                                    in
+                                    2014, an increase from 59 per cent in 1990.
+                                </li>
+                                <li>Globally, there were an estimated 289,000 maternal deaths in 2013.</li>
+
+
+                            </ul>
+
+                            <h4>Target 5.B:<br/>
+                                <strong>Achieve, by 2015, universal access to reproductive health</strong></h4>
+
+                            <ul>
+
+                                <li>After years of slow progress, only half of pregnant women receive the recommended
+                                    amount
+                                    of antenatal care.
+                                </li>
+
+
+                            </ul>
+
+                            <br/>
+                            <h4>Maternal Health</h4>
+
+                            <iframe width="480" height="270" scrolling="no"
+                                    src="https://www.youtube.com/embed/ozcoElGuPGg?list=PLwoDFQJEq_0Y57bsPH-5zcRnDlXJRz87x"
+                                    frameborder="0" allowfullscreen></iframe>
+
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal6_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg6.jpg" style="width: 85px; height: 85px;">
+
+                        <h3>Goal 6</h3>
+                        Combat HIV/AIDS, Malaria and Other Diseases
+                        <div id="goal6_text" style="width:800px;display: none;">
+                            <h3>Goal 6: Combat HIV/AIDS, Malaria and Other Diseases</h3>
+
+                            <p>
+                            <h4>Target 6.A: <br/>
+                                Have halted by 2015 and begun to reverse the
+                                spread of HIV/AIDS</h4>
+
+                            <ul>
+
+
+                                <li>New HIV infections fell by approximately 40 per cent between 2000 and 2013.</li>
+                                <li>Globally, an estimated 35 million people were still living with HIV in 2013.</li>
+                                <li>More than 75 per cent of the new infections in 2013 occurred in 15 countries.</li>
+                                <li>Worldwide, an estimated 0.8 per cent of adults aged 15 to 49 were living with HIV in
+                                    2013.
+                                </li>
+
+
+                            </ul>
+
+                            <h4>Target 6.B:<br/>
+                                Achieve, by 2010, universal access to treatment for
+                                HIV/AIDS for all those who need it</h4>
+                            <ul>
+
+                                <li>By June 2014, 13.6 million people living with HIV were receiving antiretroviral
+                                    therapy (ART) globally, an increase from 800,000 in 2003.
+                                </li>
+                                <li>In 2013 alone, the number of people receiving ART rose by 1.9 million in the
+                                    developing regions.
+                                </li>
+                                <li>ART averted 7.6 million deaths from AIDS between 1995 and 2013.</li>
+                                <li>Antiretroviral medicines to treat HIV were delivered to 12.1 million people in
+                                    developing regions in 2014.
+                                </li>
+
+
+                            </ul>
+
+                            <h4>Target 6.C:<br/>
+                                Have halted by 2015 and begun to
+                                reverse the incidence of malaria and
+                                other major diseases</h4>
+                            <ul>
+                                <li>Between 2000 and 2015, the substantial expansion of malaria interventions led to a
+                                    58 per cent decline in malaria mortality rates globally.
+                                </li>
+                                <li>Since 2000, over 6.2 million deaths from malaria were averted, primarily in children
+                                    under five years of age in Sub-Saharan Africa.
+                                </li>
+                                <li>Due to increased funding, more children are sleeping under insecticide-treated bed
+                                    nets in sub-Saharan Africa.
+                                </li>
+                                <li>Tuberculosis prevention, diagnosis and treatment interventions have saved some 37
+                                    million lives between 2000 and 2013.
+                                </li>
+
+
+                            </ul>
+                            <br/>
+                            <h4>HIV/AIDS / Botswana: Mobile HIV Testing for Women </h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZUpiXXqr1sU"
+                                    frameborder="0" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal7_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg7.jpg" style="width: 85px; height: 85px;">
+
+                        <h3>Goal 7</h3>
+                        Ensure Environmental Stability
+                        <div id="goal7_text" style="width:800px;display: none;">
+                            <h3>Goal 7: Ensure Environmental Stability</h3>
+
+                            <p>
+                            <h4>Target 7.A: <br/>
+                                Integrate the principles of sustainable development into country policies and programmes
+                                and
+                                reverse the loss of environmental resources</h4>
+
+                            <ul>
+
+                                <li>Forests are a safety net, especially for the poor, but they continue to disappear at
+                                    an
+                                    alarming rate.
+                                </li>
+                                <li>An increase in afforestation, a slight decrease in deforestation and the natural
+                                    expansion of forests have reduced the net loss of forest from an average of 8.3
+                                    million
+                                    hectares annually in the 1990s to an average of 5.2 million hectares annually
+                                    between
+                                    2000 and 2010.
+                                </li>
+                                <li>Between 1990 and 2012, global emissions of carbon dioxide increased by over 50 per
+                                    cent.
+                                </li>
+                                <li>Ozone-depleting substances have been virtually eliminated, and the ozone layer is
+                                    expected to recover by the middle of this century.
+                                </li>
+
+
+                            </ul>
+
+                            <h4>Target 7.B:<br/>
+                                Reduce biodiversity loss, achieving,
+                                by 2010, a significant reduction in the
+                                rate of loss</h4>
+                            <ul>
+
+                                <li> Protected ecosystems covered 15.2 per cent of land and 8.4 per cent of coastal
+                                    marine
+                                    areas worldwide by 2014.
+                                </li>
+                            </ul>
+
+                            <h4>Target 7.C:<br/>
+                                Halve, by 2015, the proportion of the population
+                                without sustainable access to safe drinking water
+                                and basic sanitation</h4>
+
+                            <ul>
+
+
+                                <li>The world has met the target of halving the proportion of people without access to
+                                    improved sources of water, five years ahead of schedule.
+                                </li>
+                                <li>Between 1990 and 2015, 2.6 billion people gained access to improved drinking water
+                                    sources.
+                                </li>
+                                <li>Worldwide 2.1 billion people have gained access to improved sanitation. Despite
+                                    progress, 2.4 billion are still using unimproved sanitation facilities, including
+                                    946
+                                    million people who are still practicing open defecation.
+                                </li>
+
+
+                            </ul>
+
+                            <h4>Target 7.D: <br/>
+                                Achieve, by 2020, a significant improvement in the lives of at least 100 million slum
+                                dwellers</h4>
+
+                            <ul>
+                                <li>Between 2000 and 2014, more than 320 million people living in slums gained access to
+                                    improved water sources, improved sanitation facilities, or durable or less crowded
+                                    housing, thereby exceeding the MDG target.
+                                </li>
+                                <li>More than 880 million people are estimated to be living in slums today, compared to
+                                    792
+                                    million in 2000 and 689 million in 1990.
+                                </li>
+                            </ul>
+
+                            <br/>
+                            <h4>Environmental Sustainability </h4>
+                            <iframe width="480" height="270" scrolling="no"
+                                    src="https://www.youtube.com/embed/YIidhqxkZxc?list=PLwoDFQJEq_0Y57bsPH-5zcRnDlXJRz87x"
+                                    frameborder="0" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <a class="fancybox" href="#goal8_text">
+                    <div class="goals-wrapper">
+                        <img src="assets/img/mdg8.jpg" style="width: 85px; height: 85px;">
+
+                        <h3>Goal 8</h3>
+                        Global Partnership for Development
+                        <div id="goal8_text" style="width:800px;display: none;">
+                            <h3>Goal 8: Global Partnership for Development</h3>
+
+                            <p>
+
+                            <h4>Target 8.A:<br/>
+                                Develop further an open, rule-based, predictable, non-discriminatory trading and
+                                financial system</h4>
+
+                            <ul>
+
+                                <li>Official development assistance from developed countries increased by 66 per cent in
+                                    real terms between 2000 and 2014, reaching $135.2 billion.
+                                </li>
+                            </ul>
+
+                            <h4>Target 8.B: <br/>
+                                Address the special needs of least developed countries</h4>
+
+                            <ul>
+
+                                <li>In 2014, bilateral aid to least developed countries (LDCs) fell 16 per cent in real
+                                    terms, reaching $25 billion.
+                                </li>
+                                <li>79 per cent of imports from developing countries enter developed countries
+                                    duty-free.
+                                </li>
+
+
+                            </ul>
+
+                            <h4>Target 8.C: <br/>
+                                Address the special needs of landlocked developing countries and small island developing
+                                States</h4>
+
+                            <ul>
+                                <li>Projections indicate that a 2.5 per cent increase in country programmable aid in
+                                    2015, mainly through disbursements by multilateral agencies, will most benefit least
+                                    developed and other low-income countries.
+                                </li>
+
+                            </ul>
+
+
+                            <h4>Target 8.D:<br/>
+
+                                Deal comprehensively with the debt problems of developing countries</h4>
+
+                            <ul>
+
+                                <li>In 2013, the debt burden of developing countries was 3.1 per cent, a major
+                                    improvement over the 2000 figure of 12.0 per cent.
+                                </li>
+                            </ul>
+
+                            <h4>Target 8.E:<br/>
+
+                                <span class="style1">In cooperation with pharmaceutical companies, provide access to affordable essential drugs in developing countries</span>
+                            </h4>
+                            <ul>
+
+                                <li>From 2007 to 2014, on average, generic medicines were available in 58 per cent of
+                                    public health facilities in low-income and lower-middle-income countries.
+                                </li>
+
+
+                            </ul>
+
+
+                            <h4>Target 8.F: <br/>
+
+                                In cooperation with the private sector, make available benefits of new technologies,
+                                especially information and communications</h4>
+
+                            <ul>
+
+                                <li>Globally, the proportion of the population covered by a 2G mobile-cellular network
+                                    grew from 58 per cent in 2001 to 95 per cent in 2015.
+                                </li>
+                                <li>Internet use penetration has grown from just over 6 per cent of the world’s
+                                    population in 2000 to 43 per cent in 2015. 3.2 billion people are linked to a global
+                                    network of content and applications.
+                                </li>
+
+
+                            </ul>
+
+                            <br/>
+                            <h4>Partnership for Development </h4>
+                            <iframe width="480" height="270" scrolling="no"
+                                    src="https://www.youtube.com/embed/p6iuJe0Glz8" frameborder="0" allowfullscreen>
+
+                            </iframe>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--SERVICE SECTION END-->
+
+<!--PRICING SECTION START-->
+<section id="progress">
+    <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Goal Progress</h3>
+                <hr/>
+            </div>
+        </div>
+        <div class="row pad-bottom animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                <div class="row db-padding-btm db-attached">
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 1
+                                <small>Extreme Poverty and Hunger</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Poverty: Globally dropped by half.</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Unnourished: Fallen by half.</li>
+                                <li><i class="glyphicon"></i></li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg1.html');"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 2
+                                <small>Unversal Primary Education</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Enrolment: Up 83% to 91%</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Out of School: From 100m to 57m</li>
+                                <li><i class="glyphicon glyphicon-printer"></i>Literacy Rate: Up from 83% to 91%</li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg2.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 3
+                                <small>Gender Equality</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Education: 103 girls for every boy</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Employment: Up from 35% to 41%</li>
+                                <li><i class="glyphicon glyphicon-printer"></i>Parliament: 90% of 174 countries</li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg3.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 4
+                                <small>Child Mortality</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Mortality: Dropped to 43 per 1,000</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Disease: Measles Declined by 67%</li>
+                                <li><i class="glyphicon glyphicon-printer"></i></li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg4.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                <div class="row db-padding-btm db-attached">
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 5
+                                <small>Maternal Health</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Mortality: Declined by half</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Asia: Declied by 64%</li>
+                                <li><i class="glyphicon">Birth Assistance: Up 59%</i></li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg5.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 6
+                                <small>Combat Disease</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>New HIV: Down 40%</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Malaria: Down 37%</li>
+                                <li><i class="glyphicon glyphicon-printer">Tuberculosis: Saved 37m</i></li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg6.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 7
+                                <small>Environmental Stability</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Water: 90% using safe water</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Sanitation: 2.1 billion access</li>
+                                <li><i class="glyphicon glyphicon-printer"></i>Slums: Down to 29.7%</li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg7.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="light-pricing">
+                            <div class="price">
+                                Goal 8
+                                <small>Global Partnerships</small>
+                            </div>
+                            <div class="type">
+                                FACTS
+                            </div>
+                            <ul>
+
+                                <li><i class="glyphicon glyphicon-time"></i>Trade: Duty Free Up to 80%</li>
+                                <li><i class="glyphicon glyphicon-time"></i>Internet: 45% penetration</li>
+                                <li><i class="glyphicon glyphicon-printer"></i></li>
+                            </ul>
+                            <div class="pricing-footer">
+
+                                <a href="javascript:location.hash='#work';change_iFrame('mdg8.html')"
+                                   class="btn button-custom btn-custom-one">SEE MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--PRIICING SECTION END-->
+<!--WORK SECTION START-->
+<section id="work">
+    <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3>Goal Visualizations</h3>
+            <hr/>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="container_goals">
+
+        <a id="lnk_goal1" href="javascript:change_iFrame('mdg1.html')" class="button active"><span>✓</span>Goal 1</a>&nbsp;&nbsp;
+        <a id="lnk_goal2" href="javascript:change_iFrame('mdg2.html')" class="button orange inactive"><span>✓</span>Goal
+            2</a>&nbsp;&nbsp;
+        <a id="lnk_goal3" href="javascript:change_iFrame('mdg3.html')" class="button purple inactive"><span>✓</span>Goal
+            3</a>&nbsp;&nbsp;
+        <a id="lnk_goal4" href="javascript:change_iFrame('mdg4.html')" class="button turqoise inactive"><span>✓</span>Goal
+            4</a>&nbsp;&nbsp;
+        <a id="lnk_goal5" href="javascript:change_iFrame('MDG5.html')" class="button red inactive"><span>✓</span>Goal 5</a>&nbsp;&nbsp;
+        <a id="lnk_goal6" href="javascript:change_iFrame('mdg6.html')" class="button green inactive"><span>✓</span>Goal
+            6</a>&nbsp;&nbsp;
+        <a id="lnk_goal7" href="javascript:change_iFrame('mdg7.html')" class="button yellow inactive"><span>✓</span>Goal
+            7</a>&nbsp;&nbsp;
+        <a id="lnk_goal8" href="javascript:change_iFrame('mdg8.html')" class="button brown inactive"><span>✓</span>Goal
+            8</a>
+
+        <br/>
+        <iframe src="mdg1.html" class="iframe" scrolling="no" , frameborder="0" , border="0" , cellspacing="0" ,
+                height="1200" id="iFrame" onload="this.width=screen.width-50;">>
+        </iframe>
+    </div>
+</section>
+<!--WORK SECTION END-->
+
+<!--TEAM SECTION START-->
+<section id="team">
+    <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Team Members </h3>
+                <hr/>
+            </div>
+        </div>
+        <div class="row animate-in" data-anim-type="fade-in-up">
+
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('assets/img/team/eric.jpg')">
+                        <a href="https://github.com/EricPFreeman" target="_blank"> <i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3>Eric Freeman</h3>
+                        <h5><strong> Developer & Designer </strong></h5>
+
+                        <p>
+                            <a href="mailto:ericpfreeman@gmail.com">ericpfreeman@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('assets/img/team/evan.jpg')">
+                        <a href="https://github.com/EvanKepner" target="_blank"> <i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> Evan Kepner</h3>
+                        <h5><strong> Developer & Designer </strong></h5>
+
+                        <p>
+                            <a href="mailto:evan.kepner@gmail.com">evan.kepner@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('assets/img/team/joan.jpg')">
+                        <a href="https://twitter.com/JoanYQiu" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> Joan Qiu</h3>
+                        <h5><strong> Developer & Designer </strong></h5>
+
+                        <p>
+                            <a href="mailto:qyjoan@gmail.com">qyjoan@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('assets/img/team/simon.jpg')">
+                        <a href="http://twitter.com/samacart" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> Simon Macarthur</h3>
+                        <h5><strong> Developer & Designer </strong></h5>
+
+                        <p>
+                            <a href="mailto:samacart@gmail.com">samacart@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--TEAM SECTION END-->
+<!--CONTACT SECTION START-->
+<section id="contact">
+    <div class="container">
+        <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <h3>Contact Details </h3>
+                <hr/>
+
+            </div>
+        </div>
+
+        <div class="row animate-in" data-anim-type="fade-in-up">
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-wrapper">
+                    <h3>Class Project: W209</h3>
+
+                    <p>
+                        This project was completed for the data visualization class W209 as part of UC Berkeley's
+                        Masters of Information and Data Science.
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-wrapper">
+                    <h3>Code Repository</h3>
+                    <h4>Our code can be accessed at <a href="https://github.com/EvanKepner/GHO-MDG-Visualization" ,
+                                                       target="_blank">GitHub Repo</a>.</h4>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-wrapper">
+                    <h3>Royalties & Copyright</h3>
+                    <h4>All background images are royalty and attribution free from <a
+                            href="https://pixabay.com/" , target="_blank">PixaBay</a> or the referenced <a
+                            href="http://www.un.org/millenniumgoals/" , target="_blank">UN MDG website</a>
+                        as downloadable assets.
+                    </h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+<!--CONTACT SECTION END-->
+
+<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
+<!-- CORE JQUERY -->
+<script src="assets/js/jquery-1.11.1.js"></script>
+<!-- BOOTSTRAP SCRIPTS -->
+<script src="assets/js/bootstrap.js"></script>
+<!-- EASING SCROLL SCRIPTS PLUGIN -->
+<script src="assets/js/vegas/jquery.vegas.min.js"></script>
+<!-- VEGAS SLIDESHOW SCRIPTS -->
+<script src="assets/js/jquery.easing.min.js"></script>
+<!-- FANCYBOX PLUGIN -->
+<script src="assets/js/source/jquery.fancybox.js"></script>
+<!-- ISOTOPE SCRIPTS -->
+<script src="assets/js/jquery.isotope.js"></script>
+<!-- VIEWPORT ANIMATION SCRIPTS   -->
+<script src="assets/js/appear.min.js"></script>
+<script src="assets/js/animations.min.js"></script>
+<!-- CUSTOM SCRIPTS -->
+<script src="assets/js/custom.js"></script>
+</body>
+
+</html>

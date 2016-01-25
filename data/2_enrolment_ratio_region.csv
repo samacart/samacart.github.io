@@ -1,0 +1,551 @@
+Region,year,value
+Africa - Eastern Africa,1990,64.671005
+Africa - Eastern Africa,1991,64.3530028571
+Africa - Eastern Africa,1992,64.3274342857
+Africa - Eastern Africa,1993,64.0959585714
+Africa - Eastern Africa,1994,64.5942392857
+Africa - Eastern Africa,1995,64.3215757143
+Africa - Eastern Africa,1996,64.8325457143
+Africa - Eastern Africa,1997,64.8147735714
+Africa - Eastern Africa,1998,65.4854957143
+Africa - Eastern Africa,1999,63.6280376923
+Africa - Eastern Africa,2000,64.8294746154
+Africa - Eastern Africa,2001,68.2531778571
+Africa - Eastern Africa,2002,68.6936
+Africa - Eastern Africa,2003,70.8811621429
+Africa - Eastern Africa,2004,71.6214625
+Africa - Eastern Africa,2005,73.9539125
+Africa - Eastern Africa,2006,79.553061
+Africa - Eastern Africa,2007,83.3246966667
+Africa - Eastern Africa,2008,85.856719
+Africa - Eastern Africa,2009,85.0152533333
+Africa - Eastern Africa,2010,80.057554
+Africa - Eastern Africa,2011,80.74576
+Africa - Eastern Africa,2012,85.30679375
+Africa - Eastern Africa,2013,84.4140981818
+Africa - Eastern Africa,2014,83.9871471429
+Africa - Middle Africa,1990,67.91201875
+Africa - Middle Africa,1991,67.14524375
+Africa - Middle Africa,1992,67.14524375
+Africa - Middle Africa,1993,67.14524375
+Africa - Middle Africa,1994,67.14524375
+Africa - Middle Africa,1995,67.14524375
+Africa - Middle Africa,1996,67.14524375
+Africa - Middle Africa,1997,67.820605
+Africa - Middle Africa,1998,68.47113
+Africa - Middle Africa,1999,66.6508425
+Africa - Middle Africa,2000,65.23261125
+Africa - Middle Africa,2001,68.1738857143
+Africa - Middle Africa,2002,68.54973875
+Africa - Middle Africa,2003,70.8731542857
+Africa - Middle Africa,2004,70.898225
+Africa - Middle Africa,2005,68.53386875
+Africa - Middle Africa,2006,69.00615
+Africa - Middle Africa,2007,69.76724125
+Africa - Middle Africa,2008,74.630435
+Africa - Middle Africa,2009,74.98546875
+Africa - Middle Africa,2010,78.5607
+Africa - Middle Africa,2011,73.12703
+Africa - Middle Africa,2012,80.22716
+Africa - Middle Africa,2013,85.09675125
+Africa - Middle Africa,2014,84.66052625
+Africa - Northern Africa,1990,74.658358
+Africa - Northern Africa,1991,75.031884
+Africa - Northern Africa,1992,75.366704
+Africa - Northern Africa,1993,75.928776
+Africa - Northern Africa,1994,76.614044
+Africa - Northern Africa,1995,77.512848
+Africa - Northern Africa,1996,77.963368
+Africa - Northern Africa,1997,78.775818
+Africa - Northern Africa,1998,78.62939
+Africa - Northern Africa,1999,80.259846
+Africa - Northern Africa,2000,81.65201
+Africa - Northern Africa,2001,83.31324
+Africa - Northern Africa,2002,84.911992
+Africa - Northern Africa,2003,85.385814
+Africa - Northern Africa,2004,85.663464
+Africa - Northern Africa,2005,85.335552
+Africa - Northern Africa,2006,85.893926
+Africa - Northern Africa,2007,86.116668
+Africa - Northern Africa,2008,83.9988325
+Africa - Northern Africa,2009,87.355166
+Africa - Northern Africa,2010,86.1830225
+Africa - Northern Africa,2011,88.919138
+Africa - Northern Africa,2012,87.7659125
+Africa - Northern Africa,2013,84.33377
+Africa - Northern Africa,2014,89.885234
+Africa - Southern Africa,1990,80.134338
+Africa - Southern Africa,1991,80.888956
+Africa - Southern Africa,1992,81.599366
+Africa - Southern Africa,1993,80.680646
+Africa - Southern Africa,1994,82.20044
+Africa - Southern Africa,1995,80.636984
+Africa - Southern Africa,1996,80.103396
+Africa - Southern Africa,1997,80.286522
+Africa - Southern Africa,1998,79.570256
+Africa - Southern Africa,1999,78.819514
+Africa - Southern Africa,2000,83.415692
+Africa - Southern Africa,2001,84.027294
+Africa - Southern Africa,2002,84.42016
+Africa - Southern Africa,2003,84.546686
+Africa - Southern Africa,2004,84.254834
+Africa - Southern Africa,2005,84.001402
+Africa - Southern Africa,2006,85.075586
+Africa - Southern Africa,2007,85.174766
+Africa - Southern Africa,2008,85.19935
+Africa - Southern Africa,2009,85.608525
+Africa - Southern Africa,2010,86.07631
+Africa - Southern Africa,2011,86.4797125
+Africa - Southern Africa,2012,89.021185
+Africa - Southern Africa,2013,87.799396
+Africa - Southern Africa,2014,87.799396
+Africa - Western Africa,1990,45.3155707692
+Africa - Western Africa,1991,45.69295
+Africa - Western Africa,1992,46.1740653846
+Africa - Western Africa,1993,46.8049630769
+Africa - Western Africa,1994,46.7323176923
+Africa - Western Africa,1995,48.1847669231
+Africa - Western Africa,1996,50.2608515385
+Africa - Western Africa,1997,50.8294692308
+Africa - Western Africa,1998,52.7583207692
+Africa - Western Africa,1999,54.8278023077
+Africa - Western Africa,2000,56.25992
+Africa - Western Africa,2001,56.2742776923
+Africa - Western Africa,2002,57.9768958333
+Africa - Western Africa,2003,61.2139792308
+Africa - Western Africa,2004,63.22814
+Africa - Western Africa,2005,64.4867223077
+Africa - Western Africa,2006,65.0794546154
+Africa - Western Africa,2007,66.5040807692
+Africa - Western Africa,2008,67.8231591667
+Africa - Western Africa,2009,66.37788
+Africa - Western Africa,2010,69.0677858333
+Africa - Western Africa,2011,71.1216433333
+Africa - Western Africa,2012,71.4554408333
+Africa - Western Africa,2013,72.35479
+Africa - Western Africa,2014,73.4289207692
+Americas - Caribbean,1990,92.3099031579
+Americas - Caribbean,1991,92.1992294737
+Americas - Caribbean,1992,91.8465115789
+Americas - Caribbean,1993,91.3278722222
+Americas - Caribbean,1994,91.9545173684
+Americas - Caribbean,1995,91.9491578947
+Americas - Caribbean,1996,91.7098327778
+Americas - Caribbean,1997,92.0593610526
+Americas - Caribbean,1998,92.04944
+Americas - Caribbean,1999,91.608329375
+Americas - Caribbean,2000,91.82093
+Americas - Caribbean,2001,93.08532375
+Americas - Caribbean,2002,91.7286144444
+Americas - Caribbean,2003,91.4629011111
+Americas - Caribbean,2004,92.1949468421
+Americas - Caribbean,2005,93.5111264706
+Americas - Caribbean,2006,91.6899844444
+Americas - Caribbean,2007,91.748875
+Americas - Caribbean,2008,91.3643929412
+Americas - Caribbean,2009,94.950965625
+Americas - Caribbean,2010,91.792766
+Americas - Caribbean,2011,91.690444375
+Americas - Caribbean,2012,93.6607746667
+Americas - Caribbean,2013,91.147655
+Americas - Caribbean,2014,91.6432421053
+Americas - Central America,1990,84.36633
+Americas - Central America,1991,84.7036425
+Americas - Central America,1992,85.3998275
+Americas - Central America,1993,85.66527
+Americas - Central America,1994,85.5953825
+Americas - Central America,1995,85.47294375
+Americas - Central America,1996,85.57173375
+Americas - Central America,1997,85.4963725
+Americas - Central America,1998,84.6919985714
+Americas - Central America,1999,88.5087014286
+Americas - Central America,2000,90.5926057143
+Americas - Central America,2001,91.0416928571
+Americas - Central America,2002,93.0860157143
+Americas - Central America,2003,93.4567325
+Americas - Central America,2004,94.78288
+Americas - Central America,2005,95.3388171429
+Americas - Central America,2006,95.7649814286
+Americas - Central America,2007,95.3883057143
+Americas - Central America,2008,95.7849614286
+Americas - Central America,2009,95.7106271429
+Americas - Central America,2010,95.8397785714
+Americas - Central America,2011,95.63551625
+Americas - Central America,2012,94.41337375
+Americas - Central America,2013,92.91030875
+Americas - Central America,2014,92.91030875
+Americas - Northern America,1990,96.428205
+Americas - Northern America,1991,97.70441
+Americas - Northern America,1992,97.57585
+Americas - Northern America,1993,96.76207
+Americas - Northern America,1994,96.4843
+Americas - Northern America,1995,95.92053
+Americas - Northern America,1996,96.384605
+Americas - Northern America,1997,96.384605
+Americas - Northern America,1998,98.04402
+Americas - Northern America,1999,98.68161
+Americas - Northern America,2000,98.751535
+Americas - Northern America,2001,98.751535
+Americas - Northern America,2002,98.751535
+Americas - Northern America,2003,98.751535
+Americas - Northern America,2004,98.751535
+Americas - Northern America,2005,98.751535
+Americas - Northern America,2006,98.751535
+Americas - Northern America,2007,98.751535
+Americas - Northern America,2008,98.751535
+Americas - Northern America,2009,98.751535
+Americas - Northern America,2010,95.3812
+Americas - Northern America,2011,93.91672
+Americas - Northern America,2012,91.277295
+Americas - Northern America,2013,91.277295
+Americas - Northern America,2014,91.277295
+Americas - South America,1990,91.804138
+Americas - South America,1991,91.963247
+Americas - South America,1992,92.928983
+Americas - South America,1993,93.132244
+Americas - South America,1994,92.639924
+Americas - South America,1995,92.4760281818
+Americas - South America,1996,92.9457354545
+Americas - South America,1997,93.324338
+Americas - South America,1998,95.5329933333
+Americas - South America,1999,95.971705
+Americas - South America,2000,95.93921
+Americas - South America,2001,95.67177875
+Americas - South America,2002,95.6747042857
+Americas - South America,2003,96.5914425
+Americas - South America,2004,96.2104575
+Americas - South America,2005,96.56184125
+Americas - South America,2006,95.8847775
+Americas - South America,2007,94.62664625
+Americas - South America,2008,94.0964388889
+Americas - South America,2009,92.6114566667
+Americas - South America,2010,92.4563988889
+Americas - South America,2011,92.0874625
+Americas - South America,2012,90.60235125
+Americas - South America,2013,90.7119722222
+Americas - South America,2014,91.1351327273
+Asia - Central Asia,1990,93.8923225
+Asia - Central Asia,1991,93.8923225
+Asia - Central Asia,1992,93.8923225
+Asia - Central Asia,1993,93.8923225
+Asia - Central Asia,1994,93.8923225
+Asia - Central Asia,1995,93.8923225
+Asia - Central Asia,1996,93.8923225
+Asia - Central Asia,1997,93.8923225
+Asia - Central Asia,1998,93.8923225
+Asia - Central Asia,1999,94.0224533333
+Asia - Central Asia,2000,93.9707025
+Asia - Central Asia,2001,94.3143475
+Asia - Central Asia,2002,95.2146175
+Asia - Central Asia,2003,95.3533775
+Asia - Central Asia,2004,96.672535
+Asia - Central Asia,2005,96.09539
+Asia - Central Asia,2006,96.2909425
+Asia - Central Asia,2007,95.7184425
+Asia - Central Asia,2008,95.4438
+Asia - Central Asia,2009,95.09854
+Asia - Central Asia,2010,95.4751875
+Asia - Central Asia,2011,95.961635
+Asia - Central Asia,2012,96.9351525
+Asia - Central Asia,2013,97.105525
+Asia - Central Asia,2014,95.4577133333
+Asia - Eastern Asia,1990,92.6981333333
+Asia - Eastern Asia,1991,92.23718
+Asia - Eastern Asia,1992,91.3613833333
+Asia - Eastern Asia,1993,90.6523
+Asia - Eastern Asia,1994,90.0183966667
+Asia - Eastern Asia,1995,89.5334833333
+Asia - Eastern Asia,1996,90.5146166667
+Asia - Eastern Asia,1997,90.6391733333
+Asia - Eastern Asia,1998,91.88516
+Asia - Eastern Asia,1999,95.35226
+Asia - Eastern Asia,2000,96.413175
+Asia - Eastern Asia,2001,97.09266
+Asia - Eastern Asia,2002,96.55545
+Asia - Eastern Asia,2003,92.982425
+Asia - Eastern Asia,2004,96.404555
+Asia - Eastern Asia,2005,96.217265
+Asia - Eastern Asia,2006,98.73071
+Asia - Eastern Asia,2007,98.85616
+Asia - Eastern Asia,2008,99.665065
+Asia - Eastern Asia,2009,99.21242
+Asia - Eastern Asia,2010,99.46251
+Asia - Eastern Asia,2011,99.56187
+Asia - Eastern Asia,2012,98.78028
+Asia - Eastern Asia,2013,97.58014
+Asia - Eastern Asia,2014,94.00496
+Asia - South-Eastern Asia,1990,88.28789
+Asia - South-Eastern Asia,1991,88.1847066667
+Asia - South-Eastern Asia,1992,87.2475877778
+Asia - South-Eastern Asia,1993,87.8460288889
+Asia - South-Eastern Asia,1994,88.1292555556
+Asia - South-Eastern Asia,1995,88.3859766667
+Asia - South-Eastern Asia,1996,88.7609177778
+Asia - South-Eastern Asia,1997,89.0154555556
+Asia - South-Eastern Asia,1998,89.0818655556
+Asia - South-Eastern Asia,1999,88.27181625
+Asia - South-Eastern Asia,2000,89.23554
+Asia - South-Eastern Asia,2001,89.0162185714
+Asia - South-Eastern Asia,2002,88.55542
+Asia - South-Eastern Asia,2003,90.4995388889
+Asia - South-Eastern Asia,2004,89.0061742857
+Asia - South-Eastern Asia,2005,86.93733
+Asia - South-Eastern Asia,2006,88.6119614286
+Asia - South-Eastern Asia,2007,92.3288083333
+Asia - South-Eastern Asia,2008,91.33832625
+Asia - South-Eastern Asia,2009,92.9526525
+Asia - South-Eastern Asia,2010,95.1768166667
+Asia - South-Eastern Asia,2011,96.35677
+Asia - South-Eastern Asia,2012,94.819
+Asia - South-Eastern Asia,2013,95.03345
+Asia - South-Eastern Asia,2014,95.4696688889
+Asia - Southern Asia,1990,71.8754077778
+Asia - Southern Asia,1991,71.8754077778
+Asia - Southern Asia,1992,72.32845
+Asia - Southern Asia,1993,72.32845
+Asia - Southern Asia,1994,72.32845
+Asia - Southern Asia,1995,72.32845
+Asia - Southern Asia,1996,72.32845
+Asia - Southern Asia,1997,72.0919366667
+Asia - Southern Asia,1998,72.0919366667
+Asia - Southern Asia,1999,70.5646357143
+Asia - Southern Asia,2000,73.5145744444
+Asia - Southern Asia,2001,73.8195466667
+Asia - Southern Asia,2002,80.6042325
+Asia - Southern Asia,2003,76.77509375
+Asia - Southern Asia,2004,75.50416125
+Asia - Southern Asia,2005,79.67252625
+Asia - Southern Asia,2006,80.1491825
+Asia - Southern Asia,2007,89.74535
+Asia - Southern Asia,2008,81.0920557143
+Asia - Southern Asia,2009,82.29833625
+Asia - Southern Asia,2010,82.9911757143
+Asia - Southern Asia,2011,82.8226342857
+Asia - Southern Asia,2012,84.81658
+Asia - Southern Asia,2013,92.2592142857
+Asia - Southern Asia,2014,83.91118125
+Asia - Western Asia,1990,84.1316811765
+Asia - Western Asia,1991,84.0061864706
+Asia - Western Asia,1992,83.6178958824
+Asia - Western Asia,1993,84.5234676471
+Asia - Western Asia,1994,85.8863147059
+Asia - Western Asia,1995,86.1754323529
+Asia - Western Asia,1996,88.1366317647
+Asia - Western Asia,1997,87.8605005882
+Asia - Western Asia,1998,89.281876875
+Asia - Western Asia,1999,90.6244853333
+Asia - Western Asia,2000,90.4092176923
+Asia - Western Asia,2001,91.1424876923
+Asia - Western Asia,2002,90.4684366667
+Asia - Western Asia,2003,91.8502592857
+Asia - Western Asia,2004,93.5743966667
+Asia - Western Asia,2005,92.6808106667
+Asia - Western Asia,2006,91.5811242857
+Asia - Western Asia,2007,93.3968093333
+Asia - Western Asia,2008,92.348202
+Asia - Western Asia,2009,92.8091463636
+Asia - Western Asia,2010,94.0469666667
+Asia - Western Asia,2011,95.414993
+Asia - Western Asia,2012,95.2864045455
+Asia - Western Asia,2013,91.959546
+Asia - Western Asia,2014,93.8175064706
+Europe - Eastern Europe,1990,91.7582311111
+Europe - Eastern Europe,1991,91.7582311111
+Europe - Eastern Europe,1992,91.7582311111
+Europe - Eastern Europe,1993,91.7582311111
+Europe - Eastern Europe,1994,92.6292977778
+Europe - Eastern Europe,1995,92.5300522222
+Europe - Eastern Europe,1996,91.1307911111
+Europe - Eastern Europe,1997,92.0146466667
+Europe - Eastern Europe,1998,93.5655611111
+Europe - Eastern Europe,1999,93.5744957143
+Europe - Eastern Europe,2000,93.6734975
+Europe - Eastern Europe,2001,96.012158
+Europe - Eastern Europe,2002,95.9367733333
+Europe - Eastern Europe,2003,95.4672083333
+Europe - Eastern Europe,2004,94.8881916667
+Europe - Eastern Europe,2005,94.1681816667
+Europe - Eastern Europe,2006,93.1694914286
+Europe - Eastern Europe,2007,93.5571685714
+Europe - Eastern Europe,2008,94.7859883333
+Europe - Eastern Europe,2009,95.0929714286
+Europe - Eastern Europe,2010,95.5060614286
+Europe - Eastern Europe,2011,95.7291014286
+Europe - Eastern Europe,2012,95.7021514286
+Europe - Eastern Europe,2013,95.42537
+Europe - Eastern Europe,2014,94.9037322222
+Europe - Northern Europe,1990,96.1646088889
+Europe - Northern Europe,1991,96.2315355556
+Europe - Northern Europe,1992,96.0418222222
+Europe - Northern Europe,1993,95.8024966667
+Europe - Northern Europe,1994,95.9387422222
+Europe - Northern Europe,1995,95.6674433333
+Europe - Northern Europe,1996,96.2417766667
+Europe - Northern Europe,1997,96.5022933333
+Europe - Northern Europe,1998,99.184795
+Europe - Northern Europe,1999,98.9349011111
+Europe - Northern Europe,2000,99.2221225
+Europe - Northern Europe,2001,99.47286875
+Europe - Northern Europe,2002,99.51750375
+Europe - Northern Europe,2003,98.75945375
+Europe - Northern Europe,2004,97.65693
+Europe - Northern Europe,2005,97.05952625
+Europe - Northern Europe,2006,97.26846625
+Europe - Northern Europe,2007,97.851505
+Europe - Northern Europe,2008,98.0734533333
+Europe - Northern Europe,2009,98.33027
+Europe - Northern Europe,2010,98.3513844444
+Europe - Northern Europe,2011,98.3811166667
+Europe - Northern Europe,2012,98.5420088889
+Europe - Northern Europe,2013,98.4417555556
+Europe - Northern Europe,2014,98.4417555556
+Europe - Southern Europe,1990,94.5765227273
+Europe - Southern Europe,1991,94.4662463636
+Europe - Southern Europe,1992,94.3810018182
+Europe - Southern Europe,1993,94.1707409091
+Europe - Southern Europe,1994,93.8453718182
+Europe - Southern Europe,1995,93.9440627273
+Europe - Southern Europe,1996,93.574136
+Europe - Southern Europe,1997,94.2537636364
+Europe - Southern Europe,1998,95.895565
+Europe - Southern Europe,1999,96.3144033333
+Europe - Southern Europe,2000,96.512214
+Europe - Southern Europe,2001,96.4740777778
+Europe - Southern Europe,2002,97.055692
+Europe - Southern Europe,2003,96.78561
+Europe - Southern Europe,2004,97.92613625
+Europe - Southern Europe,2005,98.2883611111
+Europe - Southern Europe,2006,98.2168644444
+Europe - Southern Europe,2007,97.613555
+Europe - Southern Europe,2008,97.28525125
+Europe - Southern Europe,2009,96.5244442857
+Europe - Southern Europe,2010,97.39109375
+Europe - Southern Europe,2011,96.9462077778
+Europe - Southern Europe,2012,97.264514
+Europe - Southern Europe,2013,97.139503
+Europe - Southern Europe,2014,96.6040345455
+Europe - Western Europe,1990,95.4522885714
+Europe - Western Europe,1991,96.0072075
+Europe - Western Europe,1992,95.33930625
+Europe - Western Europe,1993,95.204545
+Europe - Western Europe,1994,95.699325
+Europe - Western Europe,1995,96.78576125
+Europe - Western Europe,1996,97.348685
+Europe - Western Europe,1997,97.3825225
+Europe - Western Europe,1998,97.5875414286
+Europe - Western Europe,1999,99.1669371429
+Europe - Western Europe,2000,99.1010528571
+Europe - Western Europe,2001,98.8469671429
+Europe - Western Europe,2002,98.5834157143
+Europe - Western Europe,2003,98.1305371429
+Europe - Western Europe,2004,97.9766228571
+Europe - Western Europe,2005,98.2880342857
+Europe - Western Europe,2006,98.5162957143
+Europe - Western Europe,2007,98.8718314286
+Europe - Western Europe,2008,98.9287628571
+Europe - Western Europe,2009,98.9128514286
+Europe - Western Europe,2010,98.7187485714
+Europe - Western Europe,2011,98.6102057143
+Europe - Western Europe,2012,98.4016042857
+Europe - Western Europe,2013,97.9296716667
+Europe - Western Europe,2014,97.830275
+Oceania - Australia and New Zealand,1990,98.49883
+Oceania - Australia and New Zealand,1991,97.876585
+Oceania - Australia and New Zealand,1992,97.058115
+Oceania - Australia and New Zealand,1993,96.86296
+Oceania - Australia and New Zealand,1994,96.516345
+Oceania - Australia and New Zealand,1995,96.46368
+Oceania - Australia and New Zealand,1996,96.86246
+Oceania - Australia and New Zealand,1997,97.086325
+Oceania - Australia and New Zealand,1998,96.99249
+Oceania - Australia and New Zealand,1999,96.80992
+Oceania - Australia and New Zealand,2000,96.5717
+Oceania - Australia and New Zealand,2001,95.67294
+Oceania - Australia and New Zealand,2002,95.733075
+Oceania - Australia and New Zealand,2003,96.280925
+Oceania - Australia and New Zealand,2004,96.45187
+Oceania - Australia and New Zealand,2005,96.88968
+Oceania - Australia and New Zealand,2006,96.962785
+Oceania - Australia and New Zealand,2007,97.88039
+Oceania - Australia and New Zealand,2008,98.01145
+Oceania - Australia and New Zealand,2009,98.054695
+Oceania - Australia and New Zealand,2010,98.03672
+Oceania - Australia and New Zealand,2011,97.87804
+Oceania - Australia and New Zealand,2012,97.715175
+Oceania - Australia and New Zealand,2013,97.713805
+Oceania - Australia and New Zealand,2014,97.713805
+Oceania - Melanesia,1990,89.2647625
+Oceania - Melanesia,1991,89.2647625
+Oceania - Melanesia,1992,89.2647625
+Oceania - Melanesia,1993,89.2647625
+Oceania - Melanesia,1994,86.49811
+Oceania - Melanesia,1995,89.0290125
+Oceania - Melanesia,1996,88.4544725
+Oceania - Melanesia,1997,88.556695
+Oceania - Melanesia,1998,88.7789725
+Oceania - Melanesia,1999,89.1591766667
+Oceania - Melanesia,2000,89.0915075
+Oceania - Melanesia,2001,89.88156
+Oceania - Melanesia,2002,90.194765
+Oceania - Melanesia,2003,90.198295
+Oceania - Melanesia,2004,89.7814425
+Oceania - Melanesia,2005,90.1622175
+Oceania - Melanesia,2006,88.7274533333
+Oceania - Melanesia,2007,89.0445566667
+Oceania - Melanesia,2008,88.95026
+Oceania - Melanesia,2009,88.8510133333
+Oceania - Melanesia,2010,92.906725
+Oceania - Melanesia,2011,94.9184466667
+Oceania - Melanesia,2012,94.87279
+Oceania - Melanesia,2013,86.77616
+Oceania - Melanesia,2014,91.33949
+Oceania - Micronesia,1990,91.1883933333
+Oceania - Micronesia,1991,91.1883933333
+Oceania - Micronesia,1992,91.1883933333
+Oceania - Micronesia,1993,91.1883933333
+Oceania - Micronesia,1994,91.1883933333
+Oceania - Micronesia,1995,91.1883933333
+Oceania - Micronesia,1996,91.1883933333
+Oceania - Micronesia,1997,91.1883933333
+Oceania - Micronesia,1998,91.1883933333
+Oceania - Micronesia,1999,91.1883933333
+Oceania - Micronesia,2000,91.1883933333
+Oceania - Micronesia,2001,91.1883933333
+Oceania - Micronesia,2002,91.1883933333
+Oceania - Micronesia,2003,91.1883933333
+Oceania - Micronesia,2004,91.1883933333
+Oceania - Micronesia,2005,91.1883933333
+Oceania - Micronesia,2006,91.1883933333
+Oceania - Micronesia,2007,98.424925
+Oceania - Micronesia,2008,91.1883933333
+Oceania - Micronesia,2009,91.1883933333
+Oceania - Micronesia,2010,91.1883933333
+Oceania - Micronesia,2011,91.74679
+Oceania - Micronesia,2012,87.766085
+Oceania - Micronesia,2013,91.74679
+Oceania - Micronesia,2014,91.83899
+Oceania - Polynesia,1990,92.279578
+Oceania - Polynesia,1991,92.279578
+Oceania - Polynesia,1992,92.279578
+Oceania - Polynesia,1993,92.138974
+Oceania - Polynesia,1994,92.138974
+Oceania - Polynesia,1995,91.728688
+Oceania - Polynesia,1996,91.563424
+Oceania - Polynesia,1997,91.563424
+Oceania - Polynesia,1998,92.51575
+Oceania - Polynesia,1999,90.286644
+Oceania - Polynesia,2000,91.66686
+Oceania - Polynesia,2001,93.835478
+Oceania - Polynesia,2002,93.835478
+Oceania - Polynesia,2003,93.835478
+Oceania - Polynesia,2004,93.649456
+Oceania - Polynesia,2005,93.6539375
+Oceania - Polynesia,2006,93.80482
+Oceania - Polynesia,2007,94.580325
+Oceania - Polynesia,2008,94.531516
+Oceania - Polynesia,2009,94.804788
+Oceania - Polynesia,2010,95.030322
+Oceania - Polynesia,2011,94.415564
+Oceania - Polynesia,2012,94.865142
+Oceania - Polynesia,2013,91.916554
+Oceania - Polynesia,2014,91.916554
